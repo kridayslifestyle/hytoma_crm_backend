@@ -30,7 +30,7 @@ app.include_router(movement_routes)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://hytoma.vercel.app"],
+    allow_origins=["http://localhost:5173","https://hytoma-crm-frontend.vercel.app/"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS" , "PATCH"],
     allow_headers=["*"],
